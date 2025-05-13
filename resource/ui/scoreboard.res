@@ -14,11 +14,13 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		
 		"tabPosition"			"0"
 		"medal_width"			"0"
-		"avatar_width"			"54"
+		"medal_column_width"	"0"
+		"avatar_width"			"28"
 		"spacer"			"5"
-		"name_width"			"85"
+		"name_width"			"118"
 		"nemesis_width"			"15"
 		"class_width"			"20"
 		"score_width"			"20"
@@ -26,6 +28,7 @@
 		"killstreak_width"		"15"
 		"killstreak_image_width" 	"15"
 	}
+	
 	"BlueScoreBG"
 	{
 		"ControlName"		"EditablePanel"

@@ -159,12 +159,12 @@ Animate PlayerStatusSpyOutlineImage Alpha "0" Linear 0.2 0.1
 //--------------------------------------------------------------------------
 event CompetitiveGame_LowerChatWindow
 {
-Animate HudChat ypos 320 Accel 0 0
+Animate HudChat ypos 235 Accel 0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-Animate HudChat ypos 320 Accel 0 0
+Animate HudChat ypos 235 Accel 0 0
 }
 
 event HudTournament_MoveChatWindow

@@ -22,8 +22,8 @@
 
 	// center speedos
   	"speedo_vertical_center" { "xpos" "c-30" "ypos" "c170" "visible" "0" } //195
-  	"speedo_horizontal_center" { "xpos" "c-30" "ypos" "c145" "visible" "1" }	//170
-	"speedo_absolute_center" { "xpos" "cs-0.5" "ypos" "c130" "visible" "1" }
+  	"speedo_horizontal_center" { "xpos" "c-30" "ypos" "c145" "visible" "0" }	//170      1
+	"speedo_absolute_center" { "xpos" "cs-0.5" "ypos" "c130" "visible" "0" }    //         1
 
 	// left spedos
 	"speedo_vertical_left" { "xpos" "c-170" "ypos" "c175" "visible" "0" } //195
@@ -64,28 +64,28 @@
 		"textAlignment"	"center"
 		"fgcolor" 		"Crosshair"
 	}
-	"Timer30"
-	{
-		"controlName" "ImagePanel"
-		"fieldName" "Timer30"
-		"xpos" "c215" //c215
-		"ypos" "c150" //c150
-		"image" "replay/thumbnails/30sectimer"
-		"wide" "25"
-		"tall" "25"
-		"scaleImage" "1"
-	}
-	"Timer30Tens"
-	{
-		"controlName" "ImagePanel"
-		"fieldName" "Timer30Tens"
-		"xpos" "c190" //c215
-		"ypos" "c150" //c150
-		"image" "replay/thumbnails/30sectimertens"
-		"wide" "25"
-		"tall" "25"
-		"scaleImage" "1"
-	}
+	//"Timer30"
+	//{
+	//	"controlName" "ImagePanel"
+	//	"fieldName" "Timer30"
+	//	"xpos" "c215" //c215
+	//	"ypos" "c150" //c150
+	//	"image" "replay/thumbnails/30sectimer"
+	//	"wide" "25"
+	//	"tall" "25"
+	//	"scaleImage" "1"
+	//}
+	//"Timer30Tens"
+	//{
+	//	"controlName" "ImagePanel"
+	//	"fieldName" "Timer30Tens"
+	//	"xpos" "c190" //c215
+	//	"ypos" "c150" //c150
+	//	"image" "replay/thumbnails/30sectimertens"
+	//	"wide" "25"
+	//	"tall" "25"
+	//	"scaleImage" "1"
+	//}
 
 	//--------------------------------------------------------------
 
@@ -98,6 +98,18 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"ControlName"		"CCurrencyStatusPanel"
+		"fieldName"			"CurrencyStatusPanel"
+		"xpos"				"c-202"
+		"ypos"				"r56"
+		"wide"				"100"
+		"tall"				"16"
+		"visible" 			"1"
+		"enabled" 			"1"
 	}
 
 	HudWeaponAmmo
@@ -541,12 +553,12 @@
 
 		"TextFont"		"aRegular10"
 
-		"TeamBlue"		"ahudBlue"
-		"TeamRed"		"ahudRed"
-		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
+		"TeamBlue"		"White"
+		"TeamRed"		"White"
+		"IconColor"		"Black"
+		"LocalPlayerColor"	"White"
 
-		"BaseBackgroundColor"	"29 29 29 255"
+		"BaseBackgroundColor"	"0 0 0 140"
 		"LocalBackgroundColor"	"175 175 175 255"
 	}
 
@@ -893,7 +905,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
-		"ypos"					"r163"
+		"ypos"					"280"
 		"wide"					"200"
 		"tall"					"7000"
 		"zpos"					"4"

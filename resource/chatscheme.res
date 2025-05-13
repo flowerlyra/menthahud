@@ -191,7 +191,7 @@ Scheme
 
 	Fonts
 	{
-
+		isproportional	"only"
 		"Default"
 		{
 			"1"
@@ -338,49 +338,55 @@ Scheme
 
 		"ChatFont"
 		{
+			isproportional	"only"
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
+				"name"			"MingLiU-ExtB"
+				"tall"			"18"
 				"weight"		"700"
 				"yres"			"480 599"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 
 			"2"
 			{
-				"name"			"Verdana"
-				"tall"			"14"
+				"name"			"MingLiU-ExtB"
+				"tall"			"18"
 				"weight"		"700"
 				"yres"			"600 767"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 
 			"3"
 			{
-				"name"			"Verdana"
-				"tall"			"15"
+				"name"			"MingLiU-ExtB"
+				"tall"			"18"
 				"weight"		"700"
 				"yres"			"768 1023"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"17"
+				"name"			"MingLiU-ExtB"
+				"tall"			"18"
 				"weight"		"700"
 				"yres"			"1024 1199"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 
 			"5"
 			{
-				"name"			"Verdana"
+				"name"			"MingLiU-ExtB"
 				"tall"			"22"
 				"weight"		"700"
 				"yres"			"1200 10000"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
+				"antialias"		"1"
 			}
 		}
 

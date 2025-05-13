@@ -26,8 +26,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		""
-		"enabled"		"01"
+		"visible"		"0"
+		"enabled"		"1"
 		"fillcolor"		"29 29 29 255"
 	}
 	"TargetIDBG"
@@ -53,12 +53,12 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetIDBGFix"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBGFix"
-		"xpos"			"0"
+		"xpos"			"40"
 		"ypos"			"47"
 		"zpos"			"-3"
 		"visible"		"1"
@@ -78,7 +78,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ImagePanel"
@@ -94,10 +94,10 @@
 		"enabled"		"1"
 		"fillcolor"			"ahudBlue"
 		"alpha"	"250"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -116,10 +116,10 @@
 		"enabled"		"1"
 		"fillcolor"		"ahudRed"
 		"alpha"	"250"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -129,30 +129,30 @@
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"aRegular11"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"51"
+		"ypos"			"33"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
 		"fgcolor_override"		"69 69 69 0"
 	}
-	
+
 	"TargetNameLabel2"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel2"
 		"font"			"aRegular11"
-		"xpos"			"54"
+		"xpos"			"51"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"640"
 		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
 		"fgcolor_override"		"175 175 175 255"
@@ -167,8 +167,8 @@
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
 		"fgcolor_override"		"69 69 69 255"
@@ -193,7 +193,6 @@
 		"textAlignment"	"west"
 		"fgcolor_override" 	"175 175 175 255"
 	}
-	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -253,8 +252,8 @@
 		"pin_to_sibling"	"KillStreakIconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}	
-	
+	}
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -265,8 +264,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -282,7 +281,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -315,7 +314,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"aRegular10"
@@ -332,9 +331,9 @@
 			"textAlignment"	"North"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}	
+		}
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -347,7 +346,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
-	}	
+	}
 }

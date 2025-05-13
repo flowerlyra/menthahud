@@ -2,6 +2,20 @@
 
 You can install the main hud file like normal, i.e., drop the "menthahud-main" folder into tf/custom.
 
+## LYRAS NOTES PELASE READ IMPORTANT
+Make sure the MingLiU-ExtB font is installed on your OS. I swapped out MingLiU for it due to missing characters and broken font rendering on Linux.
+
+Some of the changes I did:
+
+- The 30 second countdown and speedometer is disabled (you can re-enable if you want to)
+- Killfeed is monochrome
+- Chat font was changed to MingLiU-ExtB
+- Fixed scoreboard name alignment from the scream fortress update
+- Fixed main menu party chat font size from the scream fortress update
+- Fixed the MVP round end panel thingy to work on 4k
+- Stole @tekunotri's pull request (https://github.com/myria666/menthahud/pull/2)
+- and probably some other things idk i forgor xD
+
 ## recommended hud commands
 
 1. use tf_hud_target_id_alpha 255 or else it breaks
